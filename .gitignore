@@ -1,0 +1,17 @@
+# OS files
+Thumbs.db
+db.properties
+.DS_Store
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.cproject
+.settings/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
