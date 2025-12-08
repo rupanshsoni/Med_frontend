@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MedCare - Expert Medical Care, Redefined</title>
+  <meta name="description"
+    content="MedCare offers comprehensive, holistic medical care with expert specialists. Book your appointment today and begin your journey to better health." />
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="navbar__logo">
+      <img src="logo_text.png" alt="MedCare Logo" />
+    </a>
+
+    <div class="navbar__links" id="navLinks">
+      <a href="#hero">Home</a>
+      <a href="#holistic">Approach</a>
+      <a href="#specialists">Specialists</a>
+      <a href="#footer-cta">Contact</a>
+    </div>
+
+    <div class="navbar__actions">
+      <a href="#footer-cta" class="navbar__schedule">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="4" width="18" height="18" rx="2" />
+          <line x1="16" y1="2" x2="16" y2="6" />
+          <line x1="8" y1="2" x2="8" y2="6" />
+          <line x1="3" y1="10" x2="21" y2="10" />
+        </svg>
+        Schedule
+      </a>
+      <div class="navbar__profile" role="button" tabindex="0" aria-label="User Profile">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+          <circle cx="12" cy="7" r="4" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="navbar__hamburger" id="hamburger" role="button" tabindex="0" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__video-wrap">
+      <video autoplay muted loop playsinline>
+        <source src="hero_section_video/8375486-uhd_4096_2160_25fps.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="hero__overlay"></div>
+
+    <div class="hero__content">
+      <h1 class="hero__headline">
+        <span class="word sans">EXPERT</span>
+        <span class="word serif-italic"> // Care // </span>
+        <span class="word sans">RECONNECT</span>
+      </h1>
+      <p class="hero__subtext">
+        Discover comprehensive medical care and treatments tailored for your journey to better health.
+      </p>
+      <a href="#footer-cta" class="btn-glass">
+        Book Appointment
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="hero__trust">
+      <div class="hero__trust-avatars">
+        <img src="people/pexels-abet-31848622.jpg" alt="Happy patient portrait" />
+        <img src="people/pexels-kevinbidwell-2380795.jpg" alt="Happy patient portrait" />
+        <img src="people/pexels-khalil-atif-khan-3701376-7515590.jpg" alt="Happy patient portrait" />
+        <img src="people/pexels-syed-muhammad-danial-706152162-18143810.jpg" alt="Happy patient portrait" />
+      </div>
+      <div class="hero__trust-text">
+        <strong>30,000+ Patients</strong>
+        Trusted by families worldwide
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOLISTIC APPROACH ========== -->
+  <section class="holistic layered-section" id="holistic">
+    <div class="holistic__header reveal">
+      <h2>Holistic Approach</h2>
+      <p>We blend cutting-edge medical science with a deeply human touch, ensuring every patient feels seen, heard, and
+        cared for.</p>
+    </div>
+
+    <div class="holistic__grid">
+      <div class="holistic__list">
+        <div class="holistic__item reveal stagger-1">
+          <div class="holistic__number">01.</div>
+          <h3>Advanced Diagnostics</h3>
+          <p>Leveraging state-of-the-art imaging, genomics, and AI-assisted analysis to detect and understand conditions
+            with unprecedented precision.</p>
+        </div>
+        <div class="holistic__item reveal stagger-2">
+          <div class="holistic__number">02.</div>
+          <h3>Patient Care</h3>
+          <p>Our care model places you at the center. From personalized treatment plans to compassionate follow-ups, we
+            walk every step with you.</p>
+        </div>
+        <div class="holistic__item reveal stagger-3">
+          <div class="holistic__number">03.</div>
+          <h3>Surgical Excellence</h3>
+          <p>Our surgeons combine decades of experience with minimally invasive techniques, ensuring faster recovery and
+            the best possible outcomes.</p>
+        </div>
+        <div class="holistic__cta reveal stagger-4">
+          <a href="#footer-cta" class="btn-pill">
+            Start Your Journey
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <polyline points="12 5 19 12 12 19" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="holistic__image reveal stagger-2 parallax-media" data-parallax-depth="0.08">
+        <img src="landscape/pexels-gustavo-fring-8770713.jpg" alt="Doctor providing holistic care to a patient"
+          loading="lazy" />
+        <div class="floating-card floating-card--holistic reveal stagger-3">
+          <span>Care plans reviewed weekly</span>
+          <strong>98% follow-up continuity</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SPECIALISTS & SCHEDULES ========== -->
+  <section class="specialists layered-section" id="specialists">
+    <div class="specialists__header reveal">
+      <h2>Expert Care Anytime</h2>
+    </div>
+
+    <div class="specialists__list">
+      <!-- Item 1 -->
+      <div class="specialists__item reveal stagger-1">
+        <div class="specialists__num">01.</div>
+        <div class="specialists__info">
+          <h3>General Practice &amp; Prevention</h3>
+          <div class="specialists__meta">08:00 AM - 05:00 PM &nbsp;|&nbsp; DR. SMITH</div>
+        </div>
+        <p class="specialists__desc">Comprehensive health screenings, preventive care strategies, and ongoing wellness
+          management for the whole family.</p>
+      </div>
+      <!-- Item 2 -->
+      <div class="specialists__item reveal stagger-2">
+        <div class="specialists__num">02.</div>
+        <div class="specialists__info">
+          <h3>Cardiology &amp; Heart Health</h3>
+          <div class="specialists__meta">09:00 AM - 04:00 PM &nbsp;|&nbsp; DR. MARTINEZ</div>
+        </div>
+        <p class="specialists__desc">Advanced cardiac diagnostics, interventional procedures, and long-term heart health
+          programmes tailored to your needs.</p>
+      </div>
+      <!-- Item 3 -->
+      <div class="specialists__item reveal stagger-3">
+        <div class="specialists__num">03.</div>
+        <div class="specialists__info">
+          <h3>Neurology &amp; Brain Science</h3>
+          <div class="specialists__meta">10:00 AM - 06:00 PM &nbsp;|&nbsp; DR. CHEN</div>
+        </div>
+        <p class="specialists__desc">Specialized neurological assessments, innovative treatment plans, and compassionate
+          care for complex brain and nerve conditions.</p>
+      </div>
+      <!-- Item 4 -->
+      <div class="specialists__item reveal stagger-4">
+        <div class="specialists__num">04.</div>
+        <div class="specialists__info">
+          <h3>Pediatrics &amp; Child Wellness</h3>
+          <div class="specialists__meta">08:30 AM - 05:30 PM &nbsp;|&nbsp; DR. PATEL</div>
+        </div>
+        <p class="specialists__desc">From newborn care to adolescent health, our pediatric team provides nurturing,
+          evidence-based care for growing lives.</p>
+      </div>
+      <!-- Item 5 -->
+      <div class="specialists__item reveal stagger-5">
+        <div class="specialists__num">05.</div>
+        <div class="specialists__info">
+          <h3>Orthopedics &amp; Sports Medicine</h3>
+          <div class="specialists__meta">07:00 AM - 03:00 PM &nbsp;|&nbsp; DR. JOHNSON</div>
+        </div>
+        <p class="specialists__desc">Cutting-edge musculoskeletal treatments, rehabilitation programmes, and surgical
+          excellence for optimal mobility and performance.</p>
+      </div>
+      <!-- Item 6 -->
+      <div class="specialists__item reveal stagger-6">
+        <div class="specialists__num">06.</div>
+        <div class="specialists__info">
+          <h3>Dermatology &amp; Skin Health</h3>
+          <div class="specialists__meta">09:00 AM - 05:00 PM &nbsp;|&nbsp; DR. WILLIAMS</div>
+        </div>
+        <p class="specialists__desc">Medical and cosmetic dermatology solutions, from advanced skin screenings to
+          rejuvenation treatments, for radiant health inside and out.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INTERACTIVE ANATOMY / FEATURE ========== -->
+  <section class="anatomy layered-section" id="anatomy">
+    <div class="anatomy__header reveal">
+      <h2>What Expert Care Does<br />for Your Body</h2>
+    </div>
+
+    <div class="anatomy__layout">
+      <div class="anatomy__side anatomy__side--left reveal stagger-1 parallax-media" data-parallax-depth="-0.06">
+        <img src="portrait_photos/pexels-kooldark-15962798.jpg" alt="Patient receiving wellness care" loading="lazy" />
+      </div>
+
+      <div class="anatomy__visual reveal stagger-2 parallax-media" data-parallax-depth="0.05">
+        <img src="portrait_photos/pexels-ai25studioai-5215009.jpg" alt="Doctor illustrating care areas on the body"
+          loading="lazy" />
+        <div class="floating-card floating-card--anatomy reveal stagger-3">
+          <span>Whole-body protocol</span>
+          <strong>Personalized care map</strong>
+        </div>
+
+        <!-- Hotspot 1 -->
+        <div class="hotspot" data-hotspot="1">
+          <div class="hotspot__pulse"></div>
+          <div class="hotspot__dot"></div>
+          <div class="hotspot__card">
+            <h4>Spine &amp; Joint Relief</h4>
+            <p>Minimally invasive treatments for chronic back pain, herniated discs, and joint inflammation - restoring
+              mobility and comfort.</p>
+          </div>
+        </div>
+
+        <!-- Hotspot 2 -->
+        <div class="hotspot" data-hotspot="2">
+          <div class="hotspot__pulse"></div>
+          <div class="hotspot__dot"></div>
+          <div class="hotspot__card">
+            <h4>Cardiac Monitoring</h4>
+            <p>Continuous heart health assessment using wearable diagnostics and real-time data for early detection and
+              prevention.</p>
+          </div>
+        </div>
+
+        <!-- Hotspot 3 -->
+        <div class="hotspot" data-hotspot="3">
+          <div class="hotspot__pulse"></div>
+          <div class="hotspot__dot"></div>
+          <div class="hotspot__card">
+            <h4>Neural Wellness</h4>
+            <p>Comprehensive neurological care from cognitive assessments to advanced neuro-rehabilitation therapy and
+              brain health optimisation.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="anatomy__side anatomy__side--right reveal stagger-3 parallax-media" data-parallax-depth="0.07">
+        <img src="portrait_photos/pexels-tima-miroshnichenko-8376281.jpg" alt="Calm patient care consultation"
+          loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials layered-section" id="testimonials">
+    <div class="testimonials__header reveal">
+      <span>Patient Stories</span>
+      <h2>Trusted care, felt personally.</h2>
+      <p>Warm, attentive treatment from first consultation through follow-up care.</p>
+    </div>
+
+    <div class="testimonials__grid">
+      <article class="testimonial-card reveal stagger-1">
+        <div class="testimonial-card__top">
+          <img src="people/pexels-abet-31848622.jpg" alt="Portrait of Maya R." loading="lazy" />
+          <div>
+            <h3>Maya R.</h3>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+        </div>
+        <p>"The team made every step feel calm and considered. I finally felt like my whole health story mattered."</p>
+      </article>
+
+      <article class="testimonial-card reveal stagger-2">
+        <div class="testimonial-card__top">
+          <img src="people/pexels-kevinbidwell-2380795.jpg" alt="Portrait of Daniel K." loading="lazy" />
+          <div>
+            <h3>Daniel K.</h3>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+        </div>
+        <p>"Appointments are thoughtful, precise, and never rushed. The follow-up care is what made the difference."</p>
+      </article>
+
+      <article class="testimonial-card reveal stagger-3">
+        <div class="testimonial-card__top">
+          <img src="people/pexels-khalil-atif-khan-3701376-7515590.jpg" alt="Portrait of Sofia L." loading="lazy" />
+          <div>
+            <h3>Sofia L.</h3>
+            <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          </div>
+        </div>
+        <p>"Premium care without feeling cold. Everything was clear, gentle, and beautifully coordinated."</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER / FINAL CTA ========== -->
+  <footer class="footer-cta layered-section" id="footer-cta">
+    <div class="footer-cta__bg">
+      <img src="landscape/pexels-zeoxs-11661531.jpg" alt="Medical team working together" loading="lazy" />
+    </div>
+    <div class="footer-cta__overlay"></div>
+
+    <div class="footer-cta__content reveal">
+      <h2>One Decision Can Change<br />Your <span class="serif-italic">Life</span></h2>
+      <a href="#hero" class="btn-pill" style="background:#fff;color:#111;">
+        Start Your Journey
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12" />
+          <polyline points="12 5 19 12 12 19" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="footer-cta__bottom">
+      <div class="footer-cta__contact">
+        <h4>Get in touch with us</h4>
+        <a href="mailto:contact@medcare.com">contact@medcare.com</a>
+      </div>
+      <div class="footer-cta__address">
+        <p>
+          123 Wellness Boulevard, Suite 400<br />
+          San Francisco, CA 94102<br />
+          <a href="tel:+14155551234">+1 (415) 555-1234</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== MARQUEE ========== -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+      <span class="marquee__text">
+        <span class="sans">BOOK YOUR</span>
+        <span class="serif-italic">Appointment</span>
+        <span class="divider">//</span>
+      </span>
+    </div>
+  </div>
+
+  <!-- Floating Book Appointment CTA -->
+  <div class="floating-cta" id="floatingCta">
+    <a href="#footer-cta" class="floating-cta__btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor" stroke-width="2">
+        <rect x="3" y="4" width="18" height="18" rx="2" />
+        <line x1="16" y1="2" x2="16" y2="6" />
+        <line x1="8" y1="2" x2="8" y2="6" />
+        <line x1="3" y1="10" x2="21" y2="10" />
+      </svg>
+      Book Your Appointment
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
