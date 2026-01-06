@@ -229,6 +229,3 @@
   });
 
 })();
-
-// Refactoring
-function init() { throw new Error('Not implemented'); }
